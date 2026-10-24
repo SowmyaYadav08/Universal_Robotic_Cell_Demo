@@ -1,0 +1,36 @@
+[
+  {
+    "id": "light_localizer", "name": "Light Localizer",
+    "description": "Plate stacking and replacement simulation",
+    "dashboard": "light_localizer/outputs/dashboard.html",
+    "reports": [
+      {"name": "Assembly Video Findings", "path": "../recovery_demo/outputs/real_video_review/review.html", "kind": "page"},
+      {"name": "Recovery Decision Report", "path": "../recovery_demo/outputs/video_alert_replay/replay.html", "kind": "page"},
+      {"name": "Plate Replacement Playback", "path": "light_localizer/outputs/recovery_playback.html", "kind": "page"},
+      {"name": "Assembly Event Log (CSV)", "path": "light_localizer/outputs/events.csv", "kind": "download"},
+      {"name": "Scenario Results (JSON)", "path": "light_localizer/outputs/results.json", "kind": "download"}
+    ]
+  },
+  {
+    "id": "prefilter", "name": "Prefilter",
+    "description": "Bearing pickup and pressing. Simulated cases and recorded video previews.",
+    "dashboard": "prefilter/outputs/dashboard.html",
+    "reports": [
+      {"name": "Prefilter Video Library", "path": "prefilter/outputs/video_library/library.html", "kind": "page"},
+      {"name": "Assembly Event Log (CSV)", "path": "prefilter/outputs/events.csv", "kind": "download"},
+      {"name": "Scenario Results (JSON)", "path": "prefilter/outputs/results.json", "kind": "download"},
+      {"name": "Recovery Demo (not implemented)", "path": null, "kind": "page"}
+    ]
+  },
+  {
+    "id": "tube_interface", "name": "Tube Interface",
+    "description": "Component handling and screwing. Simulated cases and recorded video previews.",
+    "dashboard": "tube_interface/outputs/dashboard.html",
+    "reports": [
+      {"name": "Tube Interface Video Library", "path": "tube_interface/outputs/video_library/library.html", "kind": "page"},
+      {"name": "Assembly Event Log (CSV)", "path": "tube_interface/outputs/events.csv", "kind": "download"},
+      {"name": "Scenario Results (JSON)", "path": "tube_interface/outputs/results.json", "kind": "download"},
+      {"name": "Recovery Demo (not implemented)", "path": null, "kind": "page"}
+    ]
+  }
+]

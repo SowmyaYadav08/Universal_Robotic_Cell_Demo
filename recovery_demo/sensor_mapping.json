@@ -1,0 +1,40 @@
+{
+  "source": "User-provided List_of_Sensors 1 (1).txt",
+  "mode": "simulation_only",
+  "physical_sensor_assignments_verified": false,
+  "signals": {
+    "cylinder_position": {
+      "source_type": "reed_contacts",
+      "synthetic_values": ["fully_in", "fully_out", "between_endpoints", "contradictory", "unknown"],
+      "purpose": "Compare endpoint feedback with the endpoint expected for the current simulated action.",
+      "limitation": "Cylinder endpoint feedback does not establish gripping force or plate retention. Actual cylinder roles are unspecified."
+    },
+    "correct_tool_attached": {
+      "source_type": "rfid",
+      "synthetic_values": [true, false, null],
+      "purpose": "Compare the observed simulated tool identity with the configured expected tool.",
+      "limitation": "Tool IDs and expected tool assignments must be configured; unknown is not a pass."
+    },
+    "part_present_in_fixture": {
+      "source_type": "hall_sensor",
+      "synthetic_values": [true, false, null],
+      "purpose": "Corroborate visual part presence only for a fixture explicitly assigned a sensor.",
+      "limitation": "Only a few parts have sensors. This is not evidence that either Light Localizer plate position has one, or that a part is correctly seated."
+    }
+  },
+  "unavailable_from_sensor_list": [
+    "gripping force or vacuum pressure",
+    "direct gripper-empty confirmation",
+    "dropped-part location or workspace clearance",
+    "secure mechanical attachment",
+    "safety-rated permission to restart"
+  ],
+  "simulation_rules": [
+    "Keep simulated PLC signals separate from visual observations and scenario ground truth.",
+    "Unknown, contradictory, or stale required feedback blocks automatic simulated recovery.",
+    "Check expected cylinder endpoints per action; do not require all cylinders to be in the same position.",
+    "Fixture presence sensing is usable only after explicit per-fixture configuration.",
+    "Log signal values, source, timestamps, and the reason for each simulated recovery or intervention.",
+    "No physical PLC connection, robot commands, or actual recovery permission is provided by this configuration."
+  ]
+}

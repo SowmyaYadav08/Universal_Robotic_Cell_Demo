@@ -1,0 +1,21 @@
+{
+  "drop_recovered": "Drop recovered automatically",
+  "first_plate_displaced": "First plate moved out of position",
+  "workspace_obstructed": "Dropped plate blocks the work area",
+  "visibility_uncertain": "Cannot confirm the gripper is empty",
+  "wrong_tool": "Wrong tool attached",
+  "stale_sensor": "Sensor reading is too old",
+  "contradictory_cylinder": "Cylinder signals disagree",
+  "fixture_presence_unknown": "Cannot confirm a plate in the fixture",
+  "replacement_unavailable": "No replacement plate available",
+  "retry_exhausted": "Replacement attempt failed",
+  "incorrect_position": "Plate placed in the wrong position",
+  "incomplete_placement": "Plate mounting was not completed",
+  "unexpected_delay": "Assembly took longer than expected",
+  "gripper_not_empty": "Gripper still holds a part",
+  "tool_identity_unknown": "Tool identity unavailable",
+  "short_delay_cleared": "Brief delay cleared",
+  "sensor_feedback_restored": "Sensor connection restored",
+  "rack_stock_low": "Plate rack running low",
+  "minor_cycle_variation": "Small timing variation"
+}

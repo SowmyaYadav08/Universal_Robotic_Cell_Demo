@@ -1,0 +1,36 @@
+# Local environments and editors
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+*.pem
+*.key
+
+# Local recordings and generated results
+/Data/
+/data/
+**/outputs/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Downloaded model code, weights, and duplicate experiment snapshot
+/experiments/dinov2_comparison/models/
+/experiments/dinov2_comparison/snapshot/
+*.pt
+*.pth
+*.onnx
+*.safetensors

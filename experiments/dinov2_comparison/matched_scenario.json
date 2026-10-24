@@ -1,0 +1,14 @@
+{
+  "name": "Light Localizer — same two-plate scenario, two feature models",
+  "normal_video": "snapshot/Data/normal/normal_video.mp4",
+  "failure_video": "snapshot/Data/failure/failure_video.mp4",
+  "mounting_roi_xyxy": [1186, 704, 1362, 884],
+  "normal_mounting_times_sec": [14.0, 15.0, 16.0],
+  "normal_comparison_time_sec": 16.0,
+  "failure_mounting_time_sec": 15.0,
+  "transport_roi_xyxy": [1146, 514, 1478, 776],
+  "failure_transport_times_sec": [11.3, 11.4, 11.5],
+  "pause_sec": 2.0,
+  "maximum_replacement_attempts": 1,
+  "notes": "Reproduces original step3_compare_features.py and step4_normal_baseline.py settings. Existing transport timestamps are shared inspection frames, not independent labels. Recovery remains the same synthetic policy for both models."
+}

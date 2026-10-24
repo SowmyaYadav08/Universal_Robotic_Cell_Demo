@@ -1,0 +1,998 @@
+﻿{
+    "snapshot_files":  [
+                           {
+                               "path":  "snapshot\\detect_plate_loss.py",
+                               "bytes":  6332,
+                               "sha256":  "2ED13EB4DB828386C85C0865409128617487B7B9F1D44A0F01F5309362414B42"
+                           },
+                           {
+                               "path":  "snapshot\\generate_synthetic_video.py",
+                               "bytes":  3763,
+                               "sha256":  "2EAC92E73AC7F7C32C23327FD758A770E732D5E8DC78C3C501D06E47990DFF83"
+                           },
+                           {
+                               "path":  "snapshot\\light_localizer_config.py",
+                               "bytes":  1682,
+                               "sha256":  "1CAD07597AEAFC24C7912CB87D924D3361EEFACFB0651D5799DFA3EAFC7554D7"
+                           },
+                           {
+                               "path":  "snapshot\\step1_load_model.py",
+                               "bytes":  1205,
+                               "sha256":  "322443E9BFF7E68E9C408538D4A6ECD9E334C355D1AA3B8971BF4DBACA6CD85A"
+                           },
+                           {
+                               "path":  "snapshot\\step2_extract_frames.py",
+                               "bytes":  1774,
+                               "sha256":  "AFDD62D07E8424CD30C8E5EACE410BC06F6E4B253D09F4DABF132E9274C6DB78"
+                           },
+                           {
+                               "path":  "snapshot\\step3_compare_features.py",
+                               "bytes":  2427,
+                               "sha256":  "EBAAC324D425345DCF0D11CE115AC6E9C8451B7EC71EE1FDC77F20F02680DD6B"
+                           },
+                           {
+                               "path":  "snapshot\\step3_select_roi.py",
+                               "bytes":  1427,
+                               "sha256":  "AB09B25132F18331EDB1B525A081495AAC5BAF482F5D63223AA28576C3F567DC"
+                           },
+                           {
+                               "path":  "snapshot\\step4_inspect_failure_event.py",
+                               "bytes":  1173,
+                               "sha256":  "90DA15AF2F7716CC1CE0E4F657DF5804B4A7777976E5D43B60A1850FDC0A6D58"
+                           },
+                           {
+                               "path":  "snapshot\\step4_normal_baseline.py",
+                               "bytes":  1520,
+                               "sha256":  "ED090BCA6EBEC12F400E2375AE8E396C33FDD6746FDC52A84F6C26861503C182"
+                           },
+                           {
+                               "path":  "snapshot\\step5b_select_failure_roi.py",
+                               "bytes":  1115,
+                               "sha256":  "D88FD241105E586F8AB1032B5BE3EE2EA92599530AFA8FD0BAFF1F33CADE8119"
+                           },
+                           {
+                               "path":  "snapshot\\step5c_roi_motion.py",
+                               "bytes":  1834,
+                               "sha256":  "D3A54AC39110FDBC52437E9CCEB7FD79C1B34F852F8F65EDA447C6558E54DE8D"
+                           },
+                           {
+                               "path":  "snapshot\\step5d_track_separation.py",
+                               "bytes":  3406,
+                               "sha256":  "932A6C565357E6C75E305F60AC02F27EBD5E109FBA5DDC4928EDA7DE7542BAA3"
+                           },
+                           {
+                               "path":  "snapshot\\step5_motion_analysis.py",
+                               "bytes":  1655,
+                               "sha256":  "22A97584743A9EFDB5A4669D5C848075EF9B1D0D9FA47747320093FB0979D0E9"
+                           },
+                           {
+                               "path":  "snapshot\\step6_select_plate_template.py",
+                               "bytes":  1074,
+                               "sha256":  "3938D037CA78D25544E91EDC511EFC034812C22C09E11CAAF9BBC825E216CBBE"
+                           },
+                           {
+                               "path":  "snapshot\\step7_normal_timeline.py",
+                               "bytes":  2548,
+                               "sha256":  "BD7BE262EF35B3E494A0D1F8EA58A03D31ED73112D75D3A757E643949AA253A9"
+                           },
+                           {
+                               "path":  "snapshot\\SYNTHETIC_DEMO.md",
+                               "bytes":  4654,
+                               "sha256":  "FFD05C84D93E82E756EBC1779E416869070728AB9ED690729EB6938998AB2135"
+                           },
+                           {
+                               "path":  "snapshot\\validate_synthetic_demo.py",
+                               "bytes":  3693,
+                               "sha256":  "C32D48DECE8B0C14C8D58016028CAB32F688D0A0F13FA538C192528CCA2C7517"
+                           },
+                           {
+                               "path":  "snapshot\\Data\\failure\\failure_video.mp4",
+                               "bytes":  97762394,
+                               "sha256":  "18540E770BE2F0BC00B138B959A68978B153AAB7CFAE19938B268171946690C3"
+                           },
+                           {
+                               "path":  "snapshot\\Data\\normal\\normal_video.mp4",
+                               "bytes":  40390782,
+                               "sha256":  "30B555FC2A40DE1042CAEEA058580C59DA94C311E0BB56BE5FAA339728F0E400"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\normal_timeline.csv",
+                               "bytes":  437,
+                               "sha256":  "C6B5269AD3F087178B73F0A5019AABC313E575130CFA106EF900E0873C638794"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\approved_visual_references\\failure_mounting_detail.jpg",
+                               "bytes":  12611,
+                               "sha256":  "4EF784ED6C810A55D6E6C17F0286D3E44BACB461FFEA5FE2F849CDEEBB34D578"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\approved_visual_references\\normal_mounting_detail.jpg",
+                               "bytes":  14391,
+                               "sha256":  "528E30234CAA0B337F438B67256A3835626D1134531C7E8A2345EED041438F44"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\approved_visual_references\\normal_scene_16s.jpg",
+                               "bytes":  208829,
+                               "sha256":  "169F96E93E8FC538FAD8A98EAB95A53A651EF93CD1B8F553487EA894E3BCDB9C"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\approved_visual_references\\README.md",
+                               "bytes":  2248,
+                               "sha256":  "4ACF6DF54F15B8BF8383DC9FC12B21B2B89FD1C6F893967D61A4D82CDF1E3417"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\approved_visual_references\\transport_11.30s.jpg",
+                               "bytes":  577118,
+                               "sha256":  "B515FA68368D5657CAA6606CDA861326178AE4B0A203535A8A2EBC072F8F6C15"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\approved_visual_references\\transport_11.40s.jpg",
+                               "bytes":  578999,
+                               "sha256":  "D759D67DAD321D5AB087B8C0444592C4546A74D05D2A0A5D36C7B8F9F3C6661C"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\approved_visual_references\\transport_11.50s.jpg",
+                               "bytes":  598358,
+                               "sha256":  "FFA2C02C47298C93F3D751F45804DB6AB16D57026FFD7C39DE7343FCED69BEDE"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.00s.jpg",
+                               "bytes":  621120,
+                               "sha256":  "046D3141D0B57C5ABA88A7D583E9273125780867ABC94F21C9DF8EF94D838EC9"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.10s.jpg",
+                               "bytes":  612877,
+                               "sha256":  "8671B78F75B1DDC96AC614A09D65BE9780BB94F9831BFA4D884D1CACFA4AD8A6"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.20s.jpg",
+                               "bytes":  615037,
+                               "sha256":  "AC8BE99C1D02EE8D77E1BBA2F2124BCA061CFA333CCCB426BAA3B881F6AEC6CE"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.30s.jpg",
+                               "bytes":  614469,
+                               "sha256":  "C159ADCC41B840B5334C7E1F8BD540D3FC46EA1D8C85402931542AB1BA73BB72"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.40s.jpg",
+                               "bytes":  612312,
+                               "sha256":  "158B523BEC14EAE03C88D07109A7FB0A6A27ECF9735E40730A3B3585A5E9930C"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.50s.jpg",
+                               "bytes":  615566,
+                               "sha256":  "EE8F4367F4E0C17EF55D7EE41B27F4ED62B0F2580FBA8141D45F699DA4351B80"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.60s.jpg",
+                               "bytes":  577862,
+                               "sha256":  "9F61F17144A87DC2AF8AA20A0C5D8585F5E84E0A1DCCE609C333F6999BA05111"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.70s.jpg",
+                               "bytes":  581929,
+                               "sha256":  "A6458E4733E2B4B8DA123FE7E6641A036C28C96BBDA5FCA323ADC06AE7EF26C7"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.80s.jpg",
+                               "bytes":  584671,
+                               "sha256":  "2F6C2832124405AD17BB7B0EB5674763F4CB8A10D445B9298E0DAD6391D92E4F"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_10.90s.jpg",
+                               "bytes":  587368,
+                               "sha256":  "FB070C32DAE2B83EA9A71DD1CEF274C56527D70A86DB0AE777AB3606CDAC6561"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.00s.jpg",
+                               "bytes":  589543,
+                               "sha256":  "2569D31CA14704779EFBA01B1CC36640DA5CC07E307CB3B845BE22F01C439D5A"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.10s.jpg",
+                               "bytes":  580090,
+                               "sha256":  "BA4964619E15508BCB74F0F13FF61ADC3F141AF31F07419A3AD3628D174BD88E"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.20s.jpg",
+                               "bytes":  584712,
+                               "sha256":  "6603A1EF92B30AC9D17EBC4680B7D93C3629ACCD66A3F4366863D9F49D42C544"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.30s.jpg",
+                               "bytes":  577118,
+                               "sha256":  "B515FA68368D5657CAA6606CDA861326178AE4B0A203535A8A2EBC072F8F6C15"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.40s.jpg",
+                               "bytes":  578999,
+                               "sha256":  "D759D67DAD321D5AB087B8C0444592C4546A74D05D2A0A5D36C7B8F9F3C6661C"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.50s.jpg",
+                               "bytes":  598358,
+                               "sha256":  "FFA2C02C47298C93F3D751F45804DB6AB16D57026FFD7C39DE7343FCED69BEDE"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.60s.jpg",
+                               "bytes":  592404,
+                               "sha256":  "66F16A1E365C47112BE791C3B2A87D89DC8373D293511176331CCFF74E05A81D"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.70s.jpg",
+                               "bytes":  593481,
+                               "sha256":  "086B6828C6700BC7F7C14BE99D064251CFE9A432968F8FBB28B0281230FEA942"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.80s.jpg",
+                               "bytes":  589724,
+                               "sha256":  "832DB14C106732EE715A6D29F2CB9E43126337A0C2D020B0FD23F3BC1C9EBECA"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_11.90s.jpg",
+                               "bytes":  596435,
+                               "sha256":  "B798AC97BBBDC09183A529DBADC54A36BFB3A9D387035B99B984B070AC460ECA"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.00s.jpg",
+                               "bytes":  604431,
+                               "sha256":  "AF86A47C7F4BC20792DADB9651DACD57A3ED788594169919896A58986B53B113"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.10s.jpg",
+                               "bytes":  603856,
+                               "sha256":  "9FE65F324B45FE8A2B669121CCF428344F0A28F721CCBEE10E060DD52F0A9EBC"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.20s.jpg",
+                               "bytes":  610049,
+                               "sha256":  "3BB5C456C87FFA124C027256C45CDC5762AA18CF9E1E12F6BA945A367D923660"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.30s.jpg",
+                               "bytes":  611230,
+                               "sha256":  "70CC53ACFB0A2B75C660CA00843C46A8B12FE4E16726CE8750CCE5CC9BB6E85E"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.40s.jpg",
+                               "bytes":  614151,
+                               "sha256":  "8122CA7579901E1985B3638DBCF5C16CC158AB5E1BA6946A4696B8473055406E"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.50s.jpg",
+                               "bytes":  616760,
+                               "sha256":  "FF03DE5D558777C72F560446C2A141E9939B5062C11D4FEFAE26EF5D43D5236A"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.60s.jpg",
+                               "bytes":  576641,
+                               "sha256":  "29323749099A88349BD2BB283A836A4326520C3A2B903656A490552EE4517885"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.70s.jpg",
+                               "bytes":  583498,
+                               "sha256":  "FBA486CBFA8A0ECABBFBE34D71742E72E125B0BFCAE00C980C33366603DBD169"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.80s.jpg",
+                               "bytes":  584646,
+                               "sha256":  "DCC2D191963C2976AEE3B942C19619ECC2039487269700668380FDA6FB146664"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_12.90s.jpg",
+                               "bytes":  585484,
+                               "sha256":  "AE248516BF940035F06AEF90E22D2452887D0FCC5062F9544C289AB871F7144E"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.00s.jpg",
+                               "bytes":  588109,
+                               "sha256":  "B18B014651ABCBE47D6D319114376D5B5C679B147D17E8145B95A6FCA6E36615"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.10s.jpg",
+                               "bytes":  587974,
+                               "sha256":  "A05DF933C96E903ADEBF6CED6CC4CA39316A9380581395AE7875D3BD134012B5"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.20s.jpg",
+                               "bytes":  589381,
+                               "sha256":  "9D78D8F2AD73B82D1C1D5ACD2DCFC17B823F70592CA62B143D2CCD5494AC5267"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.30s.jpg",
+                               "bytes":  592249,
+                               "sha256":  "9F01526008619FBFAECEFAC3C51DB81481AD1732E5F7C8526F2B4A5C8AD2CE5D"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.40s.jpg",
+                               "bytes":  592051,
+                               "sha256":  "2F1B15C23A74598DE2CE0165C8B935AD6D917F0329CCDFE2563654A3020536C5"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.50s.jpg",
+                               "bytes":  594586,
+                               "sha256":  "D195AAB0A92DE2F48B5CED68F8918C9668982DA7C80EDB75FF827494B06AAE3E"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.60s.jpg",
+                               "bytes":  594962,
+                               "sha256":  "0E7F84D8836B4DCB0125F7474C4B2C852F830A95DDB41DD611A5B505EE536CE1"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.70s.jpg",
+                               "bytes":  595624,
+                               "sha256":  "80EAB04F3D8BF9558C31A29699919BB7D704C84054E58709CF44F1C5A50E1B93"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.80s.jpg",
+                               "bytes":  596213,
+                               "sha256":  "11702DFF739264BBF567D171D52CDFAB4114080B09007BD141B5A7E0985B00C2"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_13.90s.jpg",
+                               "bytes":  596443,
+                               "sha256":  "6ADC88925D279862E2750C7FCAD2139D8150B5B4F19BD989D5637CE59B3D7D5C"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\failure_event\\failure_14.00s.jpg",
+                               "bytes":  596005,
+                               "sha256":  "52E6384B042A6842D01AF573974447AC9A94200E3D485705BE4C3369D91FE4AC"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_000000ms.jpg",
+                               "bytes":  213336,
+                               "sha256":  "57CDF1023820BD446A0924EA9B42D92A08AFAD671799D856A69135ED81C45126"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_001000ms.jpg",
+                               "bytes":  210262,
+                               "sha256":  "384B3E071310082206D7FD4BA2BF215551222476551D0079080C47AAAB1FBCAB"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_002000ms.jpg",
+                               "bytes":  211010,
+                               "sha256":  "EAACA4006912474AC1A261B083B7A3CCB0C9AA3D8B9DA518D9672F2F9518B3DB"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_003000ms.jpg",
+                               "bytes":  211282,
+                               "sha256":  "91EEC46A7620A72B898945708FFBA4A3240137AE92640749FCAADD5ED35F54A9"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_004000ms.jpg",
+                               "bytes":  216423,
+                               "sha256":  "02C7A7A8964486B75845B5A93D4AC4C04C442FCB37659E270ED1D445CD657750"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_005000ms.jpg",
+                               "bytes":  217182,
+                               "sha256":  "BD61C1E627C069EA501F1FB1D364144573868ACBB3C12A0E4FC16A985C9E6575"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_006000ms.jpg",
+                               "bytes":  217007,
+                               "sha256":  "D29BF81EF0615DF66E2E2EF106661227AE738183A419907BC86ACD6DD3C6F0F7"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_007000ms.jpg",
+                               "bytes":  215537,
+                               "sha256":  "D01104F7CF5F2486E7D61EC7AC9B1E486FD7FE6163C91FEE87DA82A7431D7026"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_008000ms.jpg",
+                               "bytes":  216754,
+                               "sha256":  "C65649FADC0AD0552F8CCE5196808FFE101335B3C81AEBFE6FD8C36FADFE35D3"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_009000ms.jpg",
+                               "bytes":  213431,
+                               "sha256":  "1D067A9F082559D07DA081B4A53FC9776395402AF772618291A77AE0C60993F8"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_010000ms.jpg",
+                               "bytes":  213845,
+                               "sha256":  "FA489FCC4BFE632C8A530D4F69F7A8FD88AFF39D4C086C4859DDCD0AD2DDE2A1"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_011000ms.jpg",
+                               "bytes":  204342,
+                               "sha256":  "B152E07220AA97AEAE172D588DDD7E13AB35131F4FE2247559E9C01AE49ADD4A"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_012000ms.jpg",
+                               "bytes":  205704,
+                               "sha256":  "45CE64E02778F3D9CD2E4AE236F5176F317EC85DCABA33010E4D45A3BFAFE4D2"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_013000ms.jpg",
+                               "bytes":  207116,
+                               "sha256":  "CF5D1EE177F3992ABB3A83D9ABEBE8EC2C1922BA869A992FE394D93F743C7A9A"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_014000ms.jpg",
+                               "bytes":  208617,
+                               "sha256":  "9350A05D1587F5C3548276F7B94B7727C84EF2019489EB37C24A0BD8A428CBDA"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_015000ms.jpg",
+                               "bytes":  209367,
+                               "sha256":  "E3900FCA0F074D1B25331B5182B4DAB1B88C0CB52EB836141B5351734B903831"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_016000ms.jpg",
+                               "bytes":  209577,
+                               "sha256":  "CDD6BA50C5D5E58403BF37708F84E41548898B83ED98E658FC4AF9E72A332176"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_017000ms.jpg",
+                               "bytes":  210378,
+                               "sha256":  "88148EC049EEA316389325C578381758A568BACA80362B9281C3A37C142D545F"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_018000ms.jpg",
+                               "bytes":  210934,
+                               "sha256":  "CBEF77B4CB318A8F2B5BAE4995890E40506FBE3A66A03CA95921CACDA4AEE91C"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_019000ms.jpg",
+                               "bytes":  209395,
+                               "sha256":  "FB3E7CA67691F60BDBFA7E286C4983CB69A2446EB98768E20B773CAA0541E218"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_020000ms.jpg",
+                               "bytes":  210289,
+                               "sha256":  "A8111CF8649ADEE781B6314CBEF60014C9242B630A8B660008F3B78B4E559AB2"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_021000ms.jpg",
+                               "bytes":  209149,
+                               "sha256":  "A2560D82F8B83A61A5AA9665EA0FA5AFA1A4510171981024ED743F27B824E8D2"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_022000ms.jpg",
+                               "bytes":  209601,
+                               "sha256":  "55C07C2D686F90A206D3F12698F67BAA2D1E4F7A43F84EDE07379426C64BE3DC"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_023000ms.jpg",
+                               "bytes":  209326,
+                               "sha256":  "25C1A3CC43174502A0AC7F99A70B884ECC51247DEA69C9F66DBF14120EC6D900"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_024000ms.jpg",
+                               "bytes":  209656,
+                               "sha256":  "DA80CA1F98F4C9D488465555DEF9CBE54747FCA7D96B3D94424BE8A830610055"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_025000ms.jpg",
+                               "bytes":  209271,
+                               "sha256":  "00A6FC75891AC003B5A5693FB6D4E3597913AE35593A6DE2F2080C4FDCDA5643"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_026000ms.jpg",
+                               "bytes":  210200,
+                               "sha256":  "9B1625E50C794C107026EA6D91141FF09048AE928E7EC2DC7F3A561B3DC65E31"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_027000ms.jpg",
+                               "bytes":  209246,
+                               "sha256":  "E9A7BD8AC237D380C1A56058220529DD4593DC1062039D13AC80C6F01B60AD3E"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_028000ms.jpg",
+                               "bytes":  211366,
+                               "sha256":  "0ECC5A89247D100CEB7F0388F0C2C7D92BE81382842826BC765A3053A70E0C5C"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_029000ms.jpg",
+                               "bytes":  209408,
+                               "sha256":  "60FC4AF8355885730E681FE4438D6281170E5EDC07391E83F17BE2C25CC2AFB3"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_030000ms.jpg",
+                               "bytes":  210382,
+                               "sha256":  "7E9369109F2BFFA9EDD074CC8926B514FFB2176C8206C60B3A539DE3DDBAEE49"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_031000ms.jpg",
+                               "bytes":  209580,
+                               "sha256":  "C6F14EC3A6D6A63C11AA2CA2CC10B9BB430257602756D6C17D22595EF3BE45E6"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_032000ms.jpg",
+                               "bytes":  210204,
+                               "sha256":  "7A536293B79575A41368215169764803A565E8EFA7F484281F4828CB09D82B18"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_033000ms.jpg",
+                               "bytes":  209355,
+                               "sha256":  "F8730D1E1DF1A7098467861D4D85B2C0EF8FCD542149307BD63AD0DB44FA1284"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_034000ms.jpg",
+                               "bytes":  209927,
+                               "sha256":  "258413A8BE0EC38357FA435198C460844650ED1799692D8EDE2AE18EA4EF2777"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_035000ms.jpg",
+                               "bytes":  209314,
+                               "sha256":  "FB2D17644AE4207BE4245D515BB99742087AA44CDAB9D951F8875731CFA8A922"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_036000ms.jpg",
+                               "bytes":  210043,
+                               "sha256":  "8366AB3468328A5747CE42ACF274D16E57CE0AED85591E0F8E57A512719F6503"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_037000ms.jpg",
+                               "bytes":  209151,
+                               "sha256":  "56D07AB29F29E3937754182551E932760EDC94F642FB01272854D2DC63EE8EA5"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_038000ms.jpg",
+                               "bytes":  211930,
+                               "sha256":  "2DFFCC9D3483FD6905E216BC319FC9088B3471857AD01BD06330A31210C0B012"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_039000ms.jpg",
+                               "bytes":  209829,
+                               "sha256":  "92278E8C1925EDE350FAE123D0722353ADEC7AE35B74AC7BAC154138744809A1"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_040000ms.jpg",
+                               "bytes":  210655,
+                               "sha256":  "F81BEADA0E1CF001BCEC8C18EBE4EC85248898C0F0D46D6EC3B775198A5A3AC6"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_041000ms.jpg",
+                               "bytes":  209697,
+                               "sha256":  "0A30A26FE5AC371FB2EFF1157F2397B2E814D5FDF84205080C48230D19F40AA2"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_042000ms.jpg",
+                               "bytes":  210121,
+                               "sha256":  "F84C9BF00D699E402AA3160BE2CE857CB58FCB1755E7A0888F62CD2985B01156"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_043000ms.jpg",
+                               "bytes":  209829,
+                               "sha256":  "5B159B4EFC7BFA7594FB076975288D4840C731365D0DBDE80B188235CC90BCCB"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_044000ms.jpg",
+                               "bytes":  210469,
+                               "sha256":  "22325486A94442E1FCA7A76AFB19EAFF7361CABCC5AB4590F2C928F8733406C5"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_045000ms.jpg",
+                               "bytes":  209709,
+                               "sha256":  "CE6E01B18FEC31A330BB7B7E8E05A06782567872D5E781E94005613CA9436F10"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_046000ms.jpg",
+                               "bytes":  210277,
+                               "sha256":  "A7E4751B07F0E16B291C97C354A5AFBB86B59195652B8A208856F02DDE56B277"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_047000ms.jpg",
+                               "bytes":  209275,
+                               "sha256":  "7B6E26BD1665FB199EE47F71B6531B76DB2C0F5C98B09C2FC27A9AA6B8BE018F"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_048000ms.jpg",
+                               "bytes":  211346,
+                               "sha256":  "B67E6DB95E499D69BF49B3BDC325FC67E9F0CD3F5EFC9C78E4514E26D5561CEE"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_049000ms.jpg",
+                               "bytes":  209371,
+                               "sha256":  "8C43A13F018A2671E2D450A0DB971D182E8EF31C006115E216AB26EFA6D5498B"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_050000ms.jpg",
+                               "bytes":  209930,
+                               "sha256":  "6642EC315B6AF1B49145CC463AEB98E679D269C13F85B4BDDEB8F6B9264220A8"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_051000ms.jpg",
+                               "bytes":  208897,
+                               "sha256":  "C5A1064E9D7B427D13898DCD51569BBC77FC4180B29DBECE98B4AAFAA39A792E"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_052000ms.jpg",
+                               "bytes":  209904,
+                               "sha256":  "A1939626952B57CE11BB9288D2D54132761B142EA014F801B1E70AC6D2B6F8A3"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_053000ms.jpg",
+                               "bytes":  208827,
+                               "sha256":  "D5CB1C4B84AD746E5A94692EBA3D70336D933561312AA2DF1073FA006B216174"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\failure\\frame_054000ms.jpg",
+                               "bytes":  209686,
+                               "sha256":  "56E5642B0DF815AD9AAF1D3EBE7234D24C98E37DF551BD3608442E41D5B697B0"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_000000ms.jpg",
+                               "bytes":  208548,
+                               "sha256":  "CD0D90C84EEADD63994C6E787CAAC515A1751AC1571C254144F2CD22FF8A52AE"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_001000ms.jpg",
+                               "bytes":  207823,
+                               "sha256":  "1B74968640887FD0BE28032603DA1A7588A6B664B34D7A0C8C30D4BD705BA145"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_002000ms.jpg",
+                               "bytes":  210686,
+                               "sha256":  "6AEC1D08CC22D3C0C679CFED43624D6A12CB39771F70076EB31CDF15E59CC198"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_003000ms.jpg",
+                               "bytes":  214022,
+                               "sha256":  "E88C0C5C2EEBD32E563BC9AC57B81F53D1F2E3CFEEDEA5F95699103D0FD4EEA8"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_004000ms.jpg",
+                               "bytes":  211740,
+                               "sha256":  "7B3EFAEF2DC8C1BA886C578C8C44C497D31B918FF1405BEE2DC170357268CA82"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_005000ms.jpg",
+                               "bytes":  213133,
+                               "sha256":  "9AE243A425FC173E86D7AAE2DCA98CA20EC2307AE7FCB6E0F6C5BC61C5F3BFCC"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_006000ms.jpg",
+                               "bytes":  212434,
+                               "sha256":  "F6775D62C15815090BFC93CDED88E276500FD68C1C45F0E4DD3646788CF46EF9"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_007000ms.jpg",
+                               "bytes":  211884,
+                               "sha256":  "3E71C4A687E403DA6E97B5D5E014FB7DF6A50C725305551E73B842CB5DFD3CE7"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_008000ms.jpg",
+                               "bytes":  208694,
+                               "sha256":  "6A99F20E300224B71C38F7C6255343035A4FDF029B62E9252B025D14C9584462"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_009000ms.jpg",
+                               "bytes":  209101,
+                               "sha256":  "355B71E8B241BEDC341715636A202C103A868DE6F2214823F22C8E6CA2142292"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_010000ms.jpg",
+                               "bytes":  200591,
+                               "sha256":  "7FCC08E127CED4C62093409FA0F8CF398D5828885A8FAF1C8411F9FD61E6F413"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_011000ms.jpg",
+                               "bytes":  201784,
+                               "sha256":  "EBCCAD42A6435A7024D167AABA506385BA63253502D4A445EA6299E589E90D13"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_012000ms.jpg",
+                               "bytes":  201090,
+                               "sha256":  "6A40E495BA92575537ED63A3D6AF2E1A348DDA7704A0E02E1F472030558BCEDD"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_013000ms.jpg",
+                               "bytes":  204872,
+                               "sha256":  "AB860B7CD3D72861146199602E80E414626DCC800FCB0B4623DC91BA734D4110"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_014000ms.jpg",
+                               "bytes":  203536,
+                               "sha256":  "73B65CF5070D5EF87F54794E1A9F6C0C8BDD07A0C80F7ED83AA59143BC0C6249"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_015000ms.jpg",
+                               "bytes":  205928,
+                               "sha256":  "776906ED6FD15E1F7104BDF8E8D81AAAE7685A7E459D486A5C7F961E9AB5A477"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\frames\\normal\\frame_016000ms.jpg",
+                               "bytes":  208829,
+                               "sha256":  "169F96E93E8FC538FAD8A98EAB95A53A651EF93CD1B8F553487EA894E3BCDB9C"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\motion_analysis\\motion_11.30_to_11.40.png",
+                               "bytes":  30922,
+                               "sha256":  "998154038CF1C85C104B9CBD654AF11D583DEA05D704C5E69DE6081B42102E6B"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\motion_analysis\\motion_11.40_to_11.50.png",
+                               "bytes":  20975,
+                               "sha256":  "219CEF499E54793B0A59A0C08F5583696D1912792163C628B7EFB02BB82BEC67"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\roi\\failure_roi.jpg",
+                               "bytes":  12611,
+                               "sha256":  "4EF784ED6C810A55D6E6C17F0286D3E44BACB461FFEA5FE2F849CDEEBB34D578"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\roi\\normal_roi.jpg",
+                               "bytes":  14391,
+                               "sha256":  "528E30234CAA0B337F438B67256A3835626D1134531C7E8A2345EED041438F44"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\roi_motion\\roi_motion_11.30_to_11.40.png",
+                               "bytes":  3871,
+                               "sha256":  "297B89336C889E4146BAE69C5BAAD4623EB02FBE133947EBBF83472A561C6A1F"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\roi_motion\\roi_motion_11.40_to_11.50.png",
+                               "bytes":  3489,
+                               "sha256":  "4A0009D1BE07D54642B4704C8DF0CE59074FBE2FB731C750FA2A0A72F7A05033"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\synthetic_plate_demo\\drop.avi",
+                               "bytes":  468984,
+                               "sha256":  "5BE0F695FC9A19435B09BC7EDE2D296D2A34E7B9D975C9E33EA8DB890C675079"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\synthetic_plate_demo\\events.csv",
+                               "bytes":  149,
+                               "sha256":  "AE9D1CEC3C9618C6B70413053FE9B29CC8243558C4543EDD72FE8F08789DBE85"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\synthetic_plate_demo\\expected_events.csv",
+                               "bytes":  87,
+                               "sha256":  "AD47BF6B36A49E72228D3B5076667B416F6F044230AEADED2D747694D80A6023"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\synthetic_plate_demo\\normal.avi",
+                               "bytes":  465098,
+                               "sha256":  "C3E00170857723A177725B8B6AE96B130B99BC49F73AE80585D317DBD314E44B"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\synthetic_plate_demo\\validation_report.json",
+                               "bytes":  636,
+                               "sha256":  "87A45FBC607A927CDF90AE4BA6CC2C10539A0160E7DEA3C2DAFD075DEED1E14D"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\tracking_check\\tracking_11.40.jpg",
+                               "bytes":  202732,
+                               "sha256":  "4DCDF494D87FFD7EFF8F69BA7802F0009C7AD8186F4AFFB8CDE26AF1F48BF995"
+                           },
+                           {
+                               "path":  "snapshot\\outputs\\tracking_check\\tracking_11.50.jpg",
+                               "bytes":  207263,
+                               "sha256":  "A4D9686B453B6208BC27D4E3B6FE745C15EA9F88DDAD96E236E31CD70CF454C7"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\evaluate_real_review.py",
+                               "bytes":  5266,
+                               "sha256":  "4C98B080A1DF041E22E969B812F9EE8F7A3008A67F328152DE3293E6ABC00E6F"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\motion_policy.py",
+                               "bytes":  1693,
+                               "sha256":  "E34CC4574D259FDB74D9F76151ED419F831EA6F680F29379E1EBDCDCB3ACB717"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\README.md",
+                               "bytes":  14153,
+                               "sha256":  "1AB8CF21BB39BCD2AF7245F57BF26EC4AA30F809EB36E3B4181743385C43BD13"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\recovery.py",
+                               "bytes":  6829,
+                               "sha256":  "10029F5F8801C7C9711BDCEBE2F3D5EC7CDB41C21BD93C5748AEEE35D075069F"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\reference_intervals.csv",
+                               "bytes":  39,
+                               "sha256":  "9BBBD24D4585B096B10A12B7DC5C2D17053840EB763B163A141C926F6116B156"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\replay_video_alert.py",
+                               "bytes":  4765,
+                               "sha256":  "B683088BA7C6BAB3ACA8CE6EDB5FFABC956484C77CD93DDBF64E6FB250FA7D94"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\report.py",
+                               "bytes":  21514,
+                               "sha256":  "D9D36F04AA3C1BBDD6635D7C954B34F7C245352532DDB9C561D91382740E8043"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\RESULTS_GUIDE.md",
+                               "bytes":  2223,
+                               "sha256":  "F8A9CA418331D20F246C1713322EE093A58A8581748B73BDE3A12558CBB38DA5"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\review_config.json",
+                               "bytes":  720,
+                               "sha256":  "EA7639DC43EC769FFA2AE67403F1A63FEFFAEBB26CD2BA4F88B0749E03F5A2BB"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\review_real_videos.py",
+                               "bytes":  10994,
+                               "sha256":  "36353E736473E0335FB4172A1DBB45CD390256D78458279BE60EF9B25CB58EAD"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\review_report.py",
+                               "bytes":  4579,
+                               "sha256":  "A6B2CDAEE80F7FD6D4368E1FED42A09DA64E8F02043A7EFBB8F06D7FA3BC0ABC"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\run_demo.py",
+                               "bytes":  1788,
+                               "sha256":  "802F964A0C1513C731A9814D4BCED045D2F8DFDFA2CFF77B3D025BA1F64C8CE4"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\scenario_labels.json",
+                               "bytes":  1076,
+                               "sha256":  "B290E5F9F43459BA595A96BEEC850C94CEFFDB9D9FAB28EA7EBF8AEEB6A78D96"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\sensor_mapping.json",
+                               "bytes":  2174,
+                               "sha256":  "17F22770F4ADF896D66B48D30811F2830ED2EF6A2599CF91E98020ED89B8939B"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\simulator.py",
+                               "bytes":  2108,
+                               "sha256":  "414C95FB39B3CBB0D64670BE382FC907D8FAA2A5C32D79250D333FFE43CE459A"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\test_evaluation.py",
+                               "bytes":  1158,
+                               "sha256":  "3F4AC2055011F8A987A0B605AE8552989076AC529779B3E3BFE67EFE82A00477"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\test_motion_policy.py",
+                               "bytes":  1514,
+                               "sha256":  "9181AEFB1764763219BB6EDB4C7F21D24F81063E893DD02C6839D40C281E12D2"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\test_recovery.py",
+                               "bytes":  6636,
+                               "sha256":  "2E900425196727CE0DAB64A3AFE0EB0ACCA93AFED73F93633F27FA179B6D240D"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\test_review_report.py",
+                               "bytes":  1450,
+                               "sha256":  "602B18BB6AA914D600A4AE262049DBF4D52A7185AE28AA0F822F37A6CF3A399F"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\test_timing.py",
+                               "bytes":  909,
+                               "sha256":  "45E4C6FBD71729C1E4813AD02B15DF6725B68240970F23F68482C0175B3EF676"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\test_video_replay.py",
+                               "bytes":  989,
+                               "sha256":  "33A0088BDDC5DCFE8AF7C698C01B21066E31E1D7B3AB65BE9E450C612745E601"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\timing.py",
+                               "bytes":  1074,
+                               "sha256":  "CCF8076FDD7C301CD412F2AAA2F47135BFE53EDB0895F3E52A2396D062846509"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\dashboard.html",
+                               "bytes":  26414,
+                               "sha256":  "3A19C4A3BE3AF7FAEA706B77BBBFD77658879C9DB338963178500316685C8348"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\events.csv",
+                               "bytes":  47747,
+                               "sha256":  "2EAB46FB8F0B3081A650B967D27791FB26868B0D02064A809AB51A027990CF97"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\recovery_playback.html",
+                               "bytes":  12860,
+                               "sha256":  "A5C2C1A85E815503BEE797B33A9D3C7AF19971C55B6FF9F672A9D75FC86B6A2A"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\results.json",
+                               "bytes":  136579,
+                               "sha256":  "FDDD2ADDE4DBA163A5C292C755FDB726E47498B34920D0BB137990AA2A3EECFE"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\real_video_review\\candidate_001.jpg",
+                               "bytes":  598358,
+                               "sha256":  "FFA2C02C47298C93F3D751F45804DB6AB16D57026FFD7C39DE7343FCED69BEDE"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\real_video_review\\candidate_001_after.jpg",
+                               "bytes":  592404,
+                               "sha256":  "66F16A1E365C47112BE791C3B2A87D89DC8373D293511176331CCFF74E05A81D"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\real_video_review\\candidate_001_before.jpg",
+                               "bytes":  578999,
+                               "sha256":  "D759D67DAD321D5AB087B8C0444592C4546A74D05D2A0A5D36C7B8F9F3C6661C"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\real_video_review\\failure_motion.csv",
+                               "bytes":  20046,
+                               "sha256":  "FCC7D32029EE55D784343235483556DE21D1E85F1DF12837A4AE0F76363B8118"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\real_video_review\\normal_motion.csv",
+                               "bytes":  6213,
+                               "sha256":  "10749FE6D9634DE7DD12E9BC7FF381626FAC77B11979C0436649CFB1849C83C0"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\real_video_review\\review.html",
+                               "bytes":  4623,
+                               "sha256":  "BF9DD68D5717786463B26603D8B778062D873E348A9C7B2890FC9A6D3B57B138"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\real_video_review\\review_events.csv",
+                               "bytes":  444,
+                               "sha256":  "94703B28965B71974F3705DB377994D00FAC1C4E1AA806B5EF455F0E08CAB581"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\real_video_review\\review_summary.json",
+                               "bytes":  1531,
+                               "sha256":  "CC7B3437FB9018088364204610460DF77BBA40B11E03D3FD9C1A1AFF79088248"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\video_alert_replay\\events.csv",
+                               "bytes":  4591,
+                               "sha256":  "3F114E0A6D8DB147C85C638FCB700B1B3A9B27274B090348FB40742C4FCA46DF"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\video_alert_replay\\recovery_playback.html",
+                               "bytes":  12750,
+                               "sha256":  "E907FF698C1B96026FAB93EB4CF4B4DDEA0388C8A928CAD5C87C98AC7AEA203E"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\video_alert_replay\\replay.html",
+                               "bytes":  3693,
+                               "sha256":  "E555D691D457D99A9810741F8FCA56DED7A33532DAF45EE320CF2E6C42CF595F"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\outputs\\video_alert_replay\\replay_result.json",
+                               "bytes":  11117,
+                               "sha256":  "1E4BE85BFDAFFD0164D3A637D42867ADCFE39AA4D517938E850B3E51FF6C3D48"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\templates\\replay_report.html",
+                               "bytes":  3620,
+                               "sha256":  "6CF2E7E1ADCF39F2A2F122442175DB13A7B75E036199938CF270145F31AEAA62"
+                           },
+                           {
+                               "path":  "snapshot\\recovery_demo\\templates\\video_review.html",
+                               "bytes":  3671,
+                               "sha256":  "19C98EDF7F864AB3397CE03BCCF745E534BBDF5CEB6BD502C3FF9B2D1B193186"
+                           }
+                       ],
+    "model_files":  [
+                        {
+                            "path":  "models\\dinov2-main.zip",
+                            "bytes":  2982169,
+                            "sha256":  "EEBBFA9E4C2C2AA84C6ECD3BAEF7D4FCBD652431805C460BCF4860C118310497"
+                        },
+                        {
+                            "path":  "models\\dinov2_vits14_pretrain.pth",
+                            "bytes":  88283115,
+                            "sha256":  "B938BF1BC15CD2EC0FEACFE3A1BB553FE8EA9CA46A7E1D8D00217F29AEF60CD9"
+                        },
+                        {
+                            "path":  "models\\mobilenet_v3_small-047dcff4.pth",
+                            "bytes":  10306551,
+                            "sha256":  "047DCFF4ADDEF86EA5BC2EFF13C9614DC11F47AB1160D0A71A25E7DB994F4E1F"
+                        }
+                    ],
+    "originals_modified":  false,
+    "execution_status":  "not_yet_executed",
+    "approved_recordings":  [
+                                "Data/normal/normal_video.mp4",
+                                "Data/failure/failure_video.mp4"
+                            ],
+    "excluded":  [
+                     ".venv",
+                     ".idea",
+                     "__pycache__",
+                     "other manufacturing inputs"
+                 ]
+}

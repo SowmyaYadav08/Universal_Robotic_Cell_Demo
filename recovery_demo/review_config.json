@@ -1,0 +1,18 @@
+{
+  "module": "Light Localizer",
+  "normal_video": "Data/normal/normal_video.mp4",
+  "review_video": "Data/failure/failure_video.mp4",
+  "transport_roi_xyxy": [1146, 514, 1478, 776],
+  "mounting_top_y": 704,
+  "sample_fps": 10,
+  "minimum_relative_speed_px_sec": 40,
+  "baseline_percentile": 99.5,
+  "baseline_margin": 1.25,
+  "persistence_sec": 0.2,
+  "cooldown_sec": 2.0,
+  "burst_threshold_factor": 2.0,
+  "normal_peak_margin": 1.5,
+  "minimum_burst_support_points": 6,
+  "minimum_burst_support_fraction": 0.08,
+  "notes": "Existing fixed-camera ROI reused. These parameters are unvalidated. Normal footage calibrates a motion threshold; it is not an independent validation set. Camera-down is assumed image-down."
+}

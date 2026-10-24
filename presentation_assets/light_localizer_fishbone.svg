@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><title>Light Localizer fishbone analysis</title><desc>Potential causes of plate loss and process interruption. All branches are investigation hypotheses. Sensing and recovery branches describe detection and response gaps, not confirmed physical causes of the drop.</desc>
+<rect x='80' y='69' width='8' height='74' fill='#087F8C'/>
+<text x='110' y='87' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#087F8C'>LIGHT LOCALIZER</text>
+<text x='106' y='147' font-family='Segoe UI,Arial,sans-serif' font-size='44' font-weight='700' fill='#173D53'>Plate Loss &amp; Process Interruption</text>
+<text x='110' y='192' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='400' fill='#627889'>Potential causes and process gaps | To be verified</text>
+<line x1='110' y1='216' x2='1810' y2='216' stroke='#DCE7EC' stroke-width='1.5' stroke-linecap='round'/>
+<line x1='115' y1='550' x2='1528' y2='550' stroke='#173D53' stroke-width='5' stroke-linecap='round'/>
+<line x1='1506' y1='535' x2='1528' y2='550' stroke='#173D53' stroke-width='4' stroke-linecap='round'/>
+<line x1='1506' y1='565' x2='1528' y2='550' stroke='#173D53' stroke-width='4' stroke-linecap='round'/>
+<rect x='1535' y='437' width='300' height='224' fill='#173D53'/>
+<text x='1557' y='475' font-family='Segoe UI,Arial,sans-serif' font-size='18' font-weight='700' fill='#9DD9DE'>OBSERVED EFFECT</text>
+<text x='1557' y='531' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='700' fill='#FFFFFF'>Plate lost</text>
+<text x='1557' y='568' font-family='Segoe UI,Arial,sans-serif' font-size='28' font-weight='700' fill='#FFFFFF'>during transport</text>
+<line x1='1558' y1='588' x2='1810' y2='588' stroke='#648494' stroke-width='1' stroke-linecap='round'/>
+<text x='1557' y='631' font-family='Segoe UI,Arial,sans-serif' font-size='21' font-weight='400' fill='#E1ECF2'>Assembly interrupted</text>
+<line x1='470' y1='550' x2='370' y2='355' stroke='#087F8C' stroke-width='3' stroke-linecap='round'/>
+<rect x='110' y='300' width='6' height='34' fill='#087F8C'/>
+<text x='126' y='326' font-family='Segoe UI,Arial,sans-serif' font-size='29' font-weight='700' fill='#087F8C'>GRIPPER</text>
+<text x='110' y='438' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='400' fill='#334E61'>Low holding force</text>
+<line x1='339.249664306641' y1='436' x2='411.538461538462' y2='436' stroke='#087F8C' stroke-width='1.6' stroke-linecap='round'/>
+<line x1='870' y1='550' x2='770' y2='355' stroke='#087F8C' stroke-width='3' stroke-linecap='round'/>
+<rect x='510' y='300' width='6' height='34' fill='#087F8C'/>
+<text x='526' y='326' font-family='Segoe UI,Arial,sans-serif' font-size='29' font-weight='700' fill='#087F8C'>CONTROL</text>
+<text x='510' y='438' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='400' fill='#334E61'>Release at wrong time</text>
+<line x1='788.786743164063' y1='436' x2='811.538461538462' y2='436' stroke='#087F8C' stroke-width='1.6' stroke-linecap='round'/>
+<line x1='1270' y1='550' x2='1170' y2='355' stroke='#087F8C' stroke-width='3' stroke-linecap='round'/>
+<rect x='910' y='300' width='6' height='34' fill='#087F8C'/>
+<text x='926' y='326' font-family='Segoe UI,Arial,sans-serif' font-size='29' font-weight='700' fill='#087F8C'>MOTION</text>
+<text x='910' y='438' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='400' fill='#334E61'>Excessive acceleration</text>
+<line x1='1184.43225097656' y1='436' x2='1211.53846153846' y2='436' stroke='#087F8C' stroke-width='1.6' stroke-linecap='round'/>
+<line x1='470' y1='550' x2='370' y2='755' stroke='#087F8C' stroke-width='3' stroke-linecap='round'/>
+<rect x='110' y='800' width='6' height='34' fill='#087F8C'/>
+<text x='126' y='826' font-family='Segoe UI,Arial,sans-serif' font-size='29' font-weight='700' fill='#087F8C'>CONTACT</text>
+<text x='110' y='684' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='400' fill='#334E61'>Low grip friction</text>
+<line x1='319.241851806641' y1='682' x2='405.609756097561' y2='682' stroke='#087F8C' stroke-width='1.6' stroke-linecap='round'/>
+<line x1='870' y1='550' x2='770' y2='755' stroke='#A46B14' stroke-width='3' stroke-linecap='round'/>
+<rect x='510' y='800' width='6' height='34' fill='#A46B14'/>
+<text x='526' y='826' font-family='Segoe UI,Arial,sans-serif' font-size='29' font-weight='700' fill='#A46B14'>SENSING</text>
+<text x='510' y='684' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='400' fill='#334E61'>Missing grip feedback</text>
+<line x1='786.514282226563' y1='682' x2='805.609756097561' y2='682' stroke='#A46B14' stroke-width='1.6' stroke-linecap='round'/>
+<line x1='1270' y1='550' x2='1170' y2='755' stroke='#75549A' stroke-width='3' stroke-linecap='round'/>
+<rect x='910' y='800' width='6' height='34' fill='#75549A'/>
+<text x='926' y='826' font-family='Segoe UI,Arial,sans-serif' font-size='29' font-weight='700' fill='#75549A'>RECOVERY</text>
+<text x='910' y='684' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='400' fill='#334E61'>No automatic retry</text>
+<line x1='1149.88833618164' y1='682' x2='1205.60975609756' y2='682' stroke='#75549A' stroke-width='1.6' stroke-linecap='round'/>
+<line x1='110' y1='938' x2='1810' y2='938' stroke='#DCE7EC' stroke-width='1.5' stroke-linecap='round'/>
+<rect x='111' y='963' width='14' height='14' fill='#087F8C'/>
+<text x='138' y='976' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#334E61'>Potential loss causes</text>
+<rect x='440' y='963' width='14' height='14' fill='#A46B14'/>
+<text x='467' y='976' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#334E61'>Detection gap</text>
+<rect x='705' y='963' width='14' height='14' fill='#75549A'/>
+<text x='732' y='976' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#334E61'>Recovery gap</text>
+<text x='110' y='1027' font-family='Segoe UI,Arial,sans-serif' font-size='23' font-weight='400' fill='#627889'>Observed: plate drop and assembly interruption. Physical root cause remains unconfirmed.</text>
+</svg>
