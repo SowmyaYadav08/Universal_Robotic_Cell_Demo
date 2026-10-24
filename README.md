@@ -1,5 +1,9 @@
 # Universal Robotic Cell (URC) Demo
 
+**[View the interactive demo](https://SowmyaYadav08.github.io/Universal_Robotic_Cell_Demo/)** — switch between three module dashboards, explore issue filters, download simulated results, and watch the Light Localizer replacement playback. All published results are synthetic examples; no physical robot is controlled.
+
+The demo is built automatically by the GitHub Pages workflow. Manufacturing recordings and reference photos are excluded from the public website.
+
 Explore assembly problems, review video motion, and demonstrate a simulated recovery workflow. The project includes Light Localizer, Prefilter, and Tube Interface assembly examples, plus presentation material.
 
 **Start with the offline demo below.** It uses scripted scenarios and needs no recordings, model downloads, or external services. It does not control a physical robot or PLC.
